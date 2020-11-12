@@ -4,5 +4,5 @@
 
 (deftest levenshtein-test
   (testing "return edit distance between two strings"
-    (is (= 3 (levenshtein "kitten" "sitt")))))
+    (is (= 3 (clojure-katas.levenshtein/calculate_lev_dist "kitten" "sitt")))))
 
